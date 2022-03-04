@@ -1,0 +1,37 @@
+{
+    "name": "moerio/superplayer",
+    "description": "一款极其友好的Flarum多媒体插件 | An extremely user-friendly multimedia plug-in for flarum",
+    "keywords": [
+        "flarum", "Aplayer", "Dplayer", "bilibili", "Flarum", "imashen.cn", "TaylorLottner", "Moe", "Donate"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "flarum/core": "^1.0.0"
+    },
+    "authors": [{
+        "name": "Ashen",
+        "email": "i@imashen.cn",
+        "role": "Owner and Author"
+    }],
+    "autoload": {
+        "psr-4": {
+            "moerio\\superplayer\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "SuperPlayer",
+            "icon": {
+                "name": "fas fa-music",
+                "backgroundColor": "#ff9191",
+                "color": "#fff"
+            }
+        },
+        "minimum-stability": "dev",
+        "flagrow": {
+            "discuss": "https://moerio.cn"
+        }
+    }
+}
